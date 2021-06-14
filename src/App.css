@@ -1,0 +1,92 @@
+@import url("https://fonts.googleleapis.com/css2?family=poppins:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.body {
+    font-family: "poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+  }
+
+  p{
+      font-size:14px;
+  }
+
+  .ose{
+      font-size:20px;
+      font-weight:550;
+      color: rgb(24, 23, 23);
+  }
+
+ .card{
+     width: 16rem;
+     margin-left: 40px;
+ }
+
+ .img{
+     border-radius: 25px;
+     width: 4rem;
+ }
+
+ .nav-link:hover {
+     color: #2aa !important;
+ }
+
+ .oso{
+     background-color: rgb(4, 34, 34);
+     border-radius: 2px;
+     color: white;
+     outline: none;
+     padding: 0.45rem 0.5rem;
+     border: none;
+     cursor: pointer;
+     text-decoration: none !important;
+ }
+
+ .osi{
+    background-color: rgb(4, 34, 34);
+    border-radius: 2px;
+    color: white;
+    outline: none;
+    padding: 0.45rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+ .oso:hover{
+  color: grey;
+}
+
+ .footer a{
+     color: white;
+     text-decoration: none !important;
+ }
+
+ .footer a:hover{
+    color: grey;
+    text-decoration: none !important;
+}
+
+  .section{
+      padding-top:40px;
+      padding-bottom:40px;
+  }
+
+  .main-heading{
+      color: rgb(161, 5, 94);
+  }
+
+  .underline{
+      height: 4px;
+      width: 7rem;
+      background-color:#f76c2f;
+      border-radius: 4rem;
+      margin-top: 10px;
+      margin-bottom:10px;
+  }
+
+  

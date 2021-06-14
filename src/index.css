@@ -1,26 +1,27 @@
 @import url("https://fonts.googleleapis.com/css2?family=poppins:wght@300;400&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: "poppins", sans-serif;
+
+
+
+.carousel-caption {
+  margin-bottom: 80px;
 }
 
-.container {
-  max-width: 500px;
+
+container {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,27 +55,27 @@ body {
   width: 100%;
 }
 
-.event {
+event {
   background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
 }
 
-.event.reminder {
+event.reminder {
   border-left: 5px solid green;
 }
 
-.event h3 {
+event h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.add-form {
+add-form {
   margin-bottom: 40px;
 }
 
-.form-control {
+form-control {
   margin: 20px 0;
 }
 
@@ -105,7 +106,15 @@ body {
   height: 20px;
 }
 
-footer {
+ooter {
   margin-top: 30px;
   text-align: center;
+}
+
+
+@media screen and (max-width: 760px) {
+  .carousel-caption{
+    font-size: 12px;
+    margin-bottom: 75px;
+  }
 }
