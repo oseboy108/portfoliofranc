@@ -7,7 +7,7 @@ const portfolio = ({ portfolioLinks } ) => {
         <div className="container">
             <div className="text-center">
                 <h2 className="section-heading text-uppercase">Portfolio</h2>
-                <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 className="section-subheading text-muted">Here are some of my works</h3>
             </div>
             <div className="row">
                 {
